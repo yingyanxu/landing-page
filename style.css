@@ -79,14 +79,12 @@ button {
     width: 150px;
     font-weight: 700;
     font-size: 22px;
-
-}
-
-button.signup {
     background: #3882f6;
     border: 1px solid #3882f6;
     color: white;
+
 }
+
 
 .right {
     width: 600px;
@@ -158,5 +156,33 @@ img {
     font-size: 25px;
     margin-top: 10px;
     margin-left: auto;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 75px;
+    margin: 90px 350px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 1px solid #3882f6;
+    color: white;
+}
+
+.lf {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    font-size: 18px;
+}
+
+.one {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+button.signup2 {
+    border-color: white
 }
 
